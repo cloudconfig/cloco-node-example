@@ -21,9 +21,12 @@ The cloco bash tool is available on [GitHub](https://github.com/cloudconfig/cloc
 
 `git clone https://github.com/cloudconfig/cloco-bash.git`
 
-Navigate to the folder and install:
+Navigate to the folder:
 
 `cd cloco-bash`
+
+Run the install script:
+
 `sudo sh ./install.sh`
 
 You now have the cloco command line interface installed.
@@ -34,9 +37,12 @@ The cloco bash tool is available on [GitHub](https://github.com/cloudconfig/cloc
 
 `git clone https://github.com/cloudconfig/cloco-node-example.git`
 
-Navigate to the folder and install:
+Navigate to the folder:
 
 `cd cloco-node-example`
+
+Install the dependencies:
+
 `npm install`
 
 ### Configure your local machine
@@ -47,7 +53,7 @@ Set your local machine to use your subscription name (normally your GitHub usern
 
 Authorize the machine using your API keys:
 
-`cloco --authorize <cloco-api-key> <cloco-api-secret>`
+`cloco --authorize --key <cloco-api-key> --secret <cloco-api-secret>`
 
 ### Upload the sample data to cloco
 
