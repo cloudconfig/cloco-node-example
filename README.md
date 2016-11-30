@@ -57,9 +57,12 @@ Authorize the machine using your API keys:
 
 ### Upload the sample data to cloco
 
-Navigate to the setup folder and upload the data to cloco.
+Navigate to the setup folder:
 
 `cd setup`
+
+Run the setup shell script to upload the data to cloco:
+
 `sh ./setup.sh`
 
 ## Running the cloco-node-example web application
