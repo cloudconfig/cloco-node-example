@@ -1,0 +1,38 @@
+{
+  "name": "cloco-node-example",
+  "version": "1.0.0",
+  "description": "A sample express application using the cloco-node-client package.",
+  "main": "with-cloco/app.js",
+  "scripts": {
+    "start": "concurrently \node with-cloco/app\" \"xdg-open http://localhost:8001\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cloudconfig/cloco-node-example.git"
+  },
+  "keywords": [
+    "cloco",
+    "cloud",
+    "config",
+    "configuration as a service"
+  ],
+  "author": "345 Systems LLP",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cloudconfig/cloco-node-example/issues"
+  },
+  "homepage": "https://github.com/cloudconfig/cloco-node-example#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "build-url": "^1.0.9",
+    "bunyan": "^1.8.5",
+    "cloco-node-client": "^0.2.0",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.14.2",
+    "express-validator": "^3.0.0",
+    "path": "^0.12.7"
+  }
+}

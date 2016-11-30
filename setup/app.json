@@ -1,0 +1,29 @@
+{
+	"applicationIdentifier": "cloco-cafe",
+	"coreDetails":{
+			"applicationName":"cloco cafe example",
+			"description":"This is a configuration-driven example application to demonstrate the cloco client.",
+			"isDefault":"true"},
+	"environments":[
+        {
+          "environmentIdentifier": "dev",
+          "environmentName": "Development",
+          "description": "Development environment, deployed and run locally.",
+          "isDefault": true
+        }
+      ],
+	"configObjects":[
+		{
+			"objectIdentifier": "menu",
+			"objectName": "menu",
+			"description": "This is a the menu configuration data.",
+			"format": "JSON"
+		},
+		{
+			"objectIdentifier": "logging",
+			"objectName": "logging",
+			"description": "This is a the logging configuration data.",
+			"format": "JSON"
+		}
+	]
+}

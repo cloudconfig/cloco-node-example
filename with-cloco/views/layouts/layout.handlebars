@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>cloco café</title>
+	<link rel="stylesheet" href="/css/bootstrap.css" />
+	<link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+	<div class="container">
+      <div class="header clearfix">
+				{{#if menu}}
+					<nav>
+	          <ul class="nav nav-pills pull-right">
+	            {{#each menu.sections}}
+	              <li role="presentation"><a href="/menu/{{this.name}}">{{this.name}}</a></li>
+	            {{/each}}
+	          </ul>
+	        </nav>
+				{{/if}}
+
+				<a href="/">
+        	<h2 class="text-muted"><img src="/images/cloco-logo.png" height="50" width="50" alt="cloco logo" /> cloco café</h2>
+				</a>
+      </div>
+
+
+      <div class="row">
+        <div class="col-lg-12">
+          {{{body}}}
+        </div>
+      </div>
+
+      <footer class="footer">
+        <p>&copy; 2016 345 Systems LLP</p>
+      </footer>
+
+    </div> <!-- /container -->
+</body>
+</html>

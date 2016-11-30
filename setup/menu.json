@@ -1,0 +1,36 @@
+{
+  "sections": [
+    {
+      "name": "Starters",
+      "description": "Have a little something while you wait.",
+      "items": [
+        {
+          "title": "Soup of the Day",
+          "description": "Please ask your server for the soup of the day.",
+          "price": 3.99
+        },
+        {
+          "title": "Beef Carpaccio",
+          "description": "Wafer thin slices of cured beef, with garnish.",
+          "price": 6.99
+        }
+      ]
+    },
+    {
+      "name": "Mains",
+      "description": "Hearty, satisfying main dishes.",
+      "items": [
+        {
+          "title": "Rack of Lamb",
+          "description": "Trimmed rack of lamb, served medium with a selection of potatoes and vegetables.",
+          "price": 14.99
+        },
+        {
+          "title": "Fillet of Salmon",
+          "description": "Fillet of Atlantic salmon, baked and served with home-made Hollandaise and asparagus.",
+          "price": 12.99
+        }
+      ]
+    }
+  ]
+}
