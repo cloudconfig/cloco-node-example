@@ -4,7 +4,7 @@
   "description": "A sample express application using the cloco-node-client package.",
   "main": "with-cloco/app.js",
   "scripts": {
-    "start": "concurrently \node with-cloco/app\" \"xdg-open http://localhost:8001\"",
+    "start": "node app",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -34,5 +34,8 @@
     "express-session": "^1.14.2",
     "express-validator": "^3.0.0",
     "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "concurrently": "^3.1.0"
   }
 }

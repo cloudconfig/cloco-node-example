@@ -67,6 +67,10 @@ Run the setup shell script to upload the data to cloco:
 
 ## Running the cloco-node-example web application
 
+Navigate to the "with cloco" version:
+
+`cd ../with-cloco`
+
 To run the example:
 
 `npm run start`
