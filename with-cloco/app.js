@@ -98,7 +98,7 @@ app.use(function (req, res, next) {
 app.use('/', routes);
 
 // Set Port
-app.set('port', (process.env.PORT || 8001));
+app.set('port', (process.env.PORT || 8003));
 
 app.listen(app.get('port'), function(){
 	console.log('cloco-node-example web server started on port ' + app.get('port'));

@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/cloudconfig/cloco-docs/master/source/images/logo.png" width="100" height="104" />
+</p>
+
 # cloco-node-example
 An express web application to demonstrate the use of the cloco node client.
 
@@ -74,6 +78,8 @@ Navigate to the "with cloco" version:
 To run the example:
 
 `npm run start`
+
+Browse to http://localhost:8003
 
 ## License
 Copyright (c) 2016 345 Systems LLP
