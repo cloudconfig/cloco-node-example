@@ -14,5 +14,5 @@ cloco --init --env dev
 cloco --save-app --app cloco-cafe --file ./app.json
 
 # upload the config
-cloco --save-cob --cob menu --file ./menu.json
-cloco --save-cob --cob logging --file ./logging.json
+cloco --save-cob --cob menu --file ./menu.json -p $CLOCO_ENCRYPTION_KEY
+cloco --save-cob --cob logging --file ./logging.json -p $CLOCO_ENCRYPTION_KEY

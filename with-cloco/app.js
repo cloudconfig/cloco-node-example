@@ -65,6 +65,11 @@ var options = {
   ttl: 60 // the interval in seconds between checks for updates
 };
 
+// check for the encryption key as an environment variable, and if set then use the encryption option.
+if (process.env.CLOCO_ENCRYPTION_KEY) {
+  options.encryptor = cloco.createAesEncryptor(process.env.CLOCO_ENCRYPTION_KEY);
+}
+
 // initialize the credentials if supplied via environment variables.
 if (process.env.CLOCO_CLIENT_KEY && process.env.CLOCO_CLIENT_SECRET) {
   options.credentials = { key: process.env.CLOCO_CLIENT_KEY, secret: process.env.CLOCO_CLIENT_SECRET };

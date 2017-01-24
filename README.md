@@ -69,6 +69,8 @@ Run the setup shell script to upload the data to cloco:
 
 `sh ./setup.sh`
 
+Note on encryption:  You can use an environment variable CLOCO_ENCRYPTION_KEY to use the cloco client in encrypted mode.  If you are going to run in this mode, be sure to set the env var before you run the setup script so that the data stored in cloco is encrypted, as the client will be attempting to decrypt.
+
 ## Running the cloco-node-example web application
 
 Navigate to the "with cloco" version:
