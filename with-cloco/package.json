@@ -4,7 +4,7 @@
   "description": "A sample express application using the cloco-node-client package.",
   "main": "with-cloco/app.js",
   "scripts": {
-    "start": "node app",
+    "start": "node app | ./node_modules/.bin/bunyan",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
