@@ -5,6 +5,10 @@
 # cloco-node-example
 An express web application to demonstrate the use of the cloco node client.
 
+## Documentation
+
+The documentation for cloco is available on GitHub pages [https://cloudconfig.github.io/cloco-docs/](https://cloudconfig.github.io/cloco-docs/).
+
 ## Prerequisites
 The following global prerequisites must exist:
 - node: >=6.9.1
