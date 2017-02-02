@@ -27,7 +27,7 @@
     "body-parser": "^1.15.2",
     "build-url": "^1.0.9",
     "bunyan": "^1.8.5",
-    "cloco-node-client": "^0.3.0",
+    "cloco-node-client": "^0.4.0",
     "cookie-parser": "^1.4.3",
     "express": "^4.14.0",
     "express-handlebars": "^3.0.0",
