@@ -3,7 +3,7 @@
 	"coreDetails":{
 			"applicationName":"cloco cafe example",
 			"description":"This is a configuration-driven example application to demonstrate the cloco client.",
-			"isDefault":"true"},
+			"isFavorite":"true"},
 	"environments":[
         {
           "environmentIdentifier": "dev",
