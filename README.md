@@ -7,7 +7,7 @@ An express web application to demonstrate the use of the cloco node client.
 
 ## Documentation
 
-The documentation for cloco is available on GitHub pages [https://cloudconfig.github.io/cloco-docs/](https://cloudconfig.github.io/cloco-docs/).
+The documentation for cloco is available at [http://docs.cloco.io](http://docs.cloco.io).
 
 ## Prerequisites
 The following global prerequisites must exist:
@@ -26,7 +26,7 @@ Once you have signed up you need to generate API credentials.
 
 ### Download and install the cloco-cli tool
 
-The cloco bash tool is available on pypi and requires Python and pip:
+The cloco cli tool is available on pypi and requires Python and pip:
 
 `pip install cloco-cli`
 
@@ -54,7 +54,7 @@ You must restart your shell for this to take effect.
 
 ### Clone the cloco-node-example project
 
-The cloco bash tool is available on [GitHub](https://github.com/cloudconfig/cloco-node-example).  Clone the repo and install:
+The cloco node example code is available on [GitHub](https://github.com/cloudconfig/cloco-node-example).  Clone the repo and install:
 
 `git clone https://github.com/cloudconfig/cloco-node-example.git`
 
