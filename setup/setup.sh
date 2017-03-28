@@ -27,7 +27,7 @@ if [ "$CLOCO_ENCRYPTION_KEY" = "" ]; then
 else
 
   echo "encrypting and uploading..."
-  cloco configuration put --cob menu --data $(openssl enc -aes256 -a -A -nosalt -in ./menu.json -k $CLOCO_ENCRYPTION_KEY)
-  cloco configuration put --cob logging --data $(openssl enc -aes256 -a -A -nosalt -in ./logging.json -k $CLOCO_ENCRYPTION_KEY)
+  cloco configuration put --cob menu --data $(openssl enc -aes256 -a -A -pass pass:$CLOCO_ENCRYPTION_KEY -in ./menu.json)
+  cloco configuration put --cob logging --data $(openssl enc -aes256 -a -A -pass pass:$CLOCO_ENCRYPTION_KEY -in ./logging.json)
 
 fi
